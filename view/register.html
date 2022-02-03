@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" type="text/css" href="style.css" />
+         
+         
+         
+         <script>
+
+</script>
+         
+    </head>
+    <body>
+        <div class="myRegister"> 
+        <FORM ACTION="http://localhost:8080/SAMR/MySecondServlet" METHOD="POST">
+            <div class="details">
+                <p>
+                    <label for="firstname">Firstname:</label>
+                    <input type="text" name="firstname" size="20" value="" required class="textbox">
+                </p>
+                <p>
+                    <label for="surname">Surname:</label>
+                    <input type="text" name="surname" size="20" value="" required class="textbox">
+                </p>
+
+                <p>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" size="20" value="" required class="textbox">
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" size="20" value="" required class="textbox">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required class="textbox" value="">
+                </p>
+                <p>
+                    <label for="usertype">User Type:</label>
+                    <br><br>
+                    <select name="usertype" id="usertype" size="20" class="textbox">
+                        <option value="Student">Student</option>
+                        <option value=""></option>
+                    </select>
+                </p>
+            </div>
+            <input type ="submit" value="Register"  name="login" class="SButton">
+        </FORM>
+        </div>
+    </body>
+</html>
